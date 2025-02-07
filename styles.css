@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+img {
+  pointer-events: none;
+}
+
 h1,
 h2,
 h3 {
