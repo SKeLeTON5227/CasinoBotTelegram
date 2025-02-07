@@ -10,4 +10,5 @@ function start() {
 
 addEventListener("DOMContentLoaded", () => {
   tg.expand();
+  usernametext.textContent = "👋, " + tg.initDataUnsafe.user.username;
 });
